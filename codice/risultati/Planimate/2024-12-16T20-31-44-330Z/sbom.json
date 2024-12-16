@@ -1,0 +1,945 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "summary": {
+    "totalComponents": 40,
+    "totalVulnerabilities": 8
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "i18next",
+      "version": "23.11.2",
+      "license": "MIT",
+      "purl": "pkg:npm/i18next@23.11.2",
+      "vulnerabilities": [
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "Cross-Site Scripting in i18next",
+          "severity": "MODERATE",
+          "references": [
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-16008"
+            },
+            {
+              "url": "https://github.com/i18next/i18next/pull/443"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-f89g-whpf-6q9m"
+            },
+            {
+              "url": "https://www.npmjs.com/advisories/325"
+            }
+          ],
+          "fixedVersion": "N/A"
+        },
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "Cross-Site Scripting in i18next",
+          "severity": "MODERATE",
+          "references": [
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-16010"
+            },
+            {
+              "url": "https://github.com/i18next/i18next/pull/826"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-cmh5-qc8w-xvcq"
+            },
+            {
+              "url": "https://www.npmjs.com/advisories/326"
+            }
+          ],
+          "fixedVersion": "N/A"
+        }
+      ],
+      "repository": "https://www.npmjs.com/package/i18next"
+    },
+    {
+      "type": "library",
+      "name": "ky",
+      "version": "1.2.4",
+      "license": "MIT",
+      "purl": "pkg:npm/ky@1.2.4",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/ky"
+    },
+    {
+      "type": "library",
+      "name": "lodash",
+      "version": "4.17.21",
+      "license": "MIT",
+      "purl": "pkg:npm/lodash@4.17.21",
+      "vulnerabilities": [
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "Prototype Pollution in lodash",
+          "severity": "MODERATE",
+          "references": [
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-3721"
+            },
+            {
+              "url": "https://hackerone.com/reports/310443"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-fvqr-27wr-82fm"
+            },
+            {
+              "url": "https://www.npmjs.com/advisories/577"
+            },
+            {
+              "url": "https://github.com/lodash/lodash/commit/d8e069cc3410082e44eb18fcf8e7f3d08ebe1d4a"
+            },
+            {
+              "url": "https://security.netapp.com/advisory/ntap-20190919-0004"
+            }
+          ],
+          "fixedVersion": "N/A"
+        },
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "Command Injection in lodash",
+          "severity": "HIGH",
+          "references": [
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-23337"
+            },
+            {
+              "url": "https://github.com/lodash/lodash/commit/3469357cff396a26c363f8c1b5a91dde28ba4b1c"
+            },
+            {
+              "url": "https://snyk.io/vuln/SNYK-JS-LODASH-1040724"
+            },
+            {
+              "url": "https://github.com/lodash/lodash/blob/ddfd9b11a0126db2302cb70ec9973b66baec0975/lodash.js#L14851"
+            },
+            {
+              "url": "https://github.com/lodash/lodash/blob/ddfd9b11a0126db2302cb70ec9973b66baec0975/lodash.js%23L14851"
+            },
+            {
+              "url": "https://snyk.io/vuln/SNYK-JAVA-ORGFUJIONWEBJARS-1074932"
+            },
+            {
+              "url": "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARS-1074930"
+            },
+            {
+              "url": "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWER-1074928"
+            },
+            {
+              "url": "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWERGITHUBLODASH-1074931"
+            },
+            {
+              "url": "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-1074929"
+            },
+            {
+              "url": "https://www.oracle.com//security-alerts/cpujul2021.html"
+            },
+            {
+              "url": "https://www.oracle.com/security-alerts/cpuoct2021.html"
+            },
+            {
+              "url": "https://www.oracle.com/security-alerts/cpujan2022.html"
+            },
+            {
+              "url": "https://www.oracle.com/security-alerts/cpujul2022.html"
+            },
+            {
+              "url": "https://cert-portal.siemens.com/productcert/pdf/ssa-637483.pdf"
+            },
+            {
+              "url": "https://security.netapp.com/advisory/ntap-20210312-0006"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-35jh-r3h4-6jhm"
+            }
+          ],
+          "fixedVersion": "N/A"
+        },
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "Prototype Pollution in lodash",
+          "severity": "HIGH",
+          "references": [
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-16487"
+            },
+            {
+              "url": "https://hackerone.com/reports/380873"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-4xc9-xhrj-v574"
+            },
+            {
+              "url": "https://www.npmjs.com/advisories/782"
+            },
+            {
+              "url": "https://security.netapp.com/advisory/ntap-20190919-0004/"
+            },
+            {
+              "url": "https://github.com/lodash/lodash/commit/90e6199a161b6445b01454517b40ef65ebecd2ad"
+            }
+          ],
+          "fixedVersion": "N/A"
+        },
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "Prototype Pollution in lodash",
+          "severity": "CRITICAL",
+          "references": [
+            {
+              "url": "https://github.com/lodash/lodash/pull/4336"
+            },
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-10744"
+            },
+            {
+              "url": "https://snyk.io/vuln/SNYK-JS-LODASH-450202"
+            },
+            {
+              "url": "https://www.npmjs.com/advisories/1065"
+            },
+            {
+              "url": "https://access.redhat.com/errata/RHSA-2019:3024"
+            },
+            {
+              "url": "https://security.netapp.com/advisory/ntap-20191004-0005/"
+            },
+            {
+              "url": "https://support.f5.com/csp/article/K47105354?utm_source=f5support&amp;utm_medium=RSS"
+            },
+            {
+              "url": "https://www.oracle.com/security-alerts/cpujan2021.html"
+            },
+            {
+              "url": "https://www.oracle.com/security-alerts/cpuoct2020.html"
+            },
+            {
+              "url": "https://support.f5.com/csp/article/K47105354?utm_source=f5support&amp%3Butm_medium=RSS"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-jf85-cpcp-j695"
+            }
+          ],
+          "fixedVersion": "N/A"
+        },
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "Regular Expression Denial of Service (ReDoS) in lodash",
+          "severity": "MODERATE",
+          "references": [
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-28500"
+            },
+            {
+              "url": "https://github.com/lodash/lodash/pull/5065"
+            },
+            {
+              "url": "https://github.com/lodash/lodash/pull/5065/commits/02906b8191d3c100c193fe6f7b27d1c40f200bb7"
+            },
+            {
+              "url": "https://github.com/lodash/lodash/blob/npm/trimEnd.js%23L8"
+            },
+            {
+              "url": "https://security.netapp.com/advisory/ntap-20210312-0006/"
+            },
+            {
+              "url": "https://snyk.io/vuln/SNYK-JS-LODASH-1018905"
+            },
+            {
+              "url": "https://snyk.io/vuln/SNYK-JAVA-ORGFUJIONWEBJARS-1074896"
+            },
+            {
+              "url": "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARS-1074894"
+            },
+            {
+              "url": "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWER-1074892"
+            },
+            {
+              "url": "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWERGITHUBLODASH-1074895"
+            },
+            {
+              "url": "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-1074893"
+            },
+            {
+              "url": "https://www.oracle.com//security-alerts/cpujul2021.html"
+            },
+            {
+              "url": "https://www.oracle.com/security-alerts/cpuoct2021.html"
+            },
+            {
+              "url": "https://www.oracle.com/security-alerts/cpujan2022.html"
+            },
+            {
+              "url": "https://www.oracle.com/security-alerts/cpujul2022.html"
+            },
+            {
+              "url": "https://cert-portal.siemens.com/productcert/pdf/ssa-637483.pdf"
+            },
+            {
+              "url": "https://github.com/lodash/lodash/commit/c4847ebe7d14540bb28a8b932a9ce1b9ecbfee1a"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-29mw-wpgm-hmr9"
+            }
+          ],
+          "fixedVersion": "N/A"
+        },
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "Prototype Pollution in lodash",
+          "severity": "HIGH",
+          "references": [
+            {
+              "url": "https://github.com/lodash/lodash/issues/4744"
+            },
+            {
+              "url": "https://github.com/lodash/lodash/commit/c84fe82760fb2d3e03a63379b297a1cc1a2fce12"
+            },
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-8203"
+            },
+            {
+              "url": "https://hackerone.com/reports/712065"
+            },
+            {
+              "url": "https://github.com/lodash/lodash/issues/4874"
+            },
+            {
+              "url": "https://github.com/github/advisory-database/pull/2884"
+            },
+            {
+              "url": "https://hackerone.com/reports/864701"
+            },
+            {
+              "url": "https://github.com/lodash/lodash/wiki/Changelog#v41719"
+            },
+            {
+              "url": "https://web.archive.org/web/20210914001339/https://github.com/lodash/lodash/issues/4744"
+            },
+            {
+              "url": "https://security.netapp.com/advisory/ntap-20200724-0006/"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-p6mc-m468-83gw"
+            }
+          ],
+          "fixedVersion": "N/A"
+        },
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "Regular Expression Denial of Service (ReDoS) in lodash",
+          "severity": "MODERATE",
+          "references": [
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-1010266"
+            },
+            {
+              "url": "https://github.com/lodash/lodash/issues/3359"
+            },
+            {
+              "url": "https://snyk.io/vuln/SNYK-JS-LODASH-73639"
+            },
+            {
+              "url": "https://github.com/lodash/lodash/commit/5c08f18d365b64063bfbfa686cbb97cdd6267347"
+            },
+            {
+              "url": "https://github.com/lodash/lodash/wiki/Changelog"
+            },
+            {
+              "url": "https://security.netapp.com/advisory/ntap-20190919-0004/"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-x5rq-j2xg-h7qm"
+            }
+          ],
+          "fixedVersion": "N/A"
+        }
+      ],
+      "repository": "https://www.npmjs.com/package/lodash"
+    },
+    {
+      "type": "library",
+      "name": "react",
+      "version": "18.3.1",
+      "license": "MIT",
+      "purl": "pkg:npm/react@18.3.1",
+      "vulnerabilities": [
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "Cross-Site Scripting in react",
+          "severity": "HIGH",
+          "references": [
+            {
+              "url": "https://snyk.io/vuln/npm:react:20150318"
+            },
+            {
+              "url": "https://www.npmjs.com/advisories/1347"
+            },
+            {
+              "url": "http://danlec.com/blog/xss-via-a-spoofed-react-element"
+            },
+            {
+              "url": "https://github.com/facebook/react"
+            },
+            {
+              "url": "https://reactjs.org/blog/2015/10/07/react-v0.14.html#notable-enhancements"
+            },
+            {
+              "url": "https://reactjs.org/blog/2019/10/22/react-release-channels.html#experimental-channel"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-hg79-j56m-fxgv"
+            }
+          ],
+          "fixedVersion": "N/A"
+        },
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "Cross-Site Scripting in react",
+          "severity": "MODERATE",
+          "references": [
+            {
+              "url": "https://reactjs.org/blog/2013/12/18/react-v0.5.2-v0.4.2.html"
+            },
+            {
+              "url": "https://snyk.io/vuln/npm:react:20131217"
+            },
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2013-7035"
+            },
+            {
+              "url": "https://github.com/facebook/react/commit/393a889aaceb761f058b09a701f889fa8f8b4e64"
+            },
+            {
+              "url": "https://github.com/facebook/react/commit/94a9a3e752fe089ab23f3a90c26d20d46d62ab10"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-g53w-52xc-2j85"
+            }
+          ],
+          "fixedVersion": "N/A"
+        },
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "Cross-Site Scripting in react",
+          "severity": "MODERATE",
+          "references": [
+            {
+              "url": "https://reactjs.org/blog/2013/12/18/react-v0.5.2-v0.4.2.html"
+            },
+            {
+              "url": "https://snyk.io/vuln/npm:react:20131217"
+            },
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2013-7035"
+            },
+            {
+              "url": "https://github.com/facebook/react/commit/393a889aaceb761f058b09a701f889fa8f8b4e64"
+            },
+            {
+              "url": "https://github.com/facebook/react/commit/94a9a3e752fe089ab23f3a90c26d20d46d62ab10"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-g53w-52xc-2j85"
+            }
+          ],
+          "fixedVersion": "N/A"
+        }
+      ],
+      "repository": "https://www.npmjs.com/package/react"
+    },
+    {
+      "type": "library",
+      "name": "react-i18next",
+      "version": "15.0.0",
+      "license": "MIT",
+      "purl": "pkg:npm/react-i18next@15.0.0",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/react-i18next"
+    },
+    {
+      "type": "library",
+      "name": "react-native",
+      "version": "0.74.5",
+      "license": "MIT",
+      "purl": "pkg:npm/react-native@0.74.5",
+      "vulnerabilities": [
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "Regular expression denial of service in react-native",
+          "severity": "HIGH",
+          "references": [
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-1920"
+            },
+            {
+              "url": "https://github.com/facebook/react-native/commit/ca09ae82715e33c9ac77b3fa55495cf84ba891c7"
+            },
+            {
+              "url": "https://github.com/facebook/react-native/releases/tag/v0.64.1"
+            },
+            {
+              "url": "https://www.npmjs.com/package/react-native"
+            },
+            {
+              "url": "https://github.com/facebook/react-native/releases/tag/v0.62.3"
+            },
+            {
+              "url": "https://securitylab.github.com/advisories/GHSL-2020-293-redos-react-native/"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-7f53-fmmv-mfjv"
+            }
+          ],
+          "fixedVersion": "N/A"
+        },
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "Regular expression denial of service in react-native",
+          "severity": "HIGH",
+          "references": [
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-1920"
+            },
+            {
+              "url": "https://github.com/facebook/react-native/commit/ca09ae82715e33c9ac77b3fa55495cf84ba891c7"
+            },
+            {
+              "url": "https://github.com/facebook/react-native/releases/tag/v0.64.1"
+            },
+            {
+              "url": "https://www.npmjs.com/package/react-native"
+            },
+            {
+              "url": "https://github.com/facebook/react-native/releases/tag/v0.62.3"
+            },
+            {
+              "url": "https://securitylab.github.com/advisories/GHSL-2020-293-redos-react-native/"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-7f53-fmmv-mfjv"
+            }
+          ],
+          "fixedVersion": "N/A"
+        }
+      ],
+      "repository": "https://www.npmjs.com/package/react-native"
+    },
+    {
+      "type": "library",
+      "name": "react-native-bouncy-checkbox",
+      "version": "4.1.2",
+      "license": "MIT",
+      "purl": "pkg:npm/react-native-bouncy-checkbox@4.1.2",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/react-native-bouncy-checkbox"
+    },
+    {
+      "type": "library",
+      "name": "react-native-calendars",
+      "version": "1.1306.0",
+      "license": "MIT",
+      "purl": "pkg:npm/react-native-calendars@1.1306.0",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/react-native-calendars"
+    },
+    {
+      "type": "library",
+      "name": "react-native-dialog",
+      "version": "9.3.0",
+      "license": "MIT",
+      "purl": "pkg:npm/react-native-dialog@9.3.0",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/react-native-dialog"
+    },
+    {
+      "type": "library",
+      "name": "react-native-draglist",
+      "version": "3.6.1",
+      "license": "MIT",
+      "purl": "pkg:npm/react-native-draglist@3.6.1",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/react-native-draglist"
+    },
+    {
+      "type": "library",
+      "name": "react-native-gesture-handler",
+      "version": "2.14.0",
+      "license": "MIT",
+      "purl": "pkg:npm/react-native-gesture-handler@2.14.0",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/react-native-gesture-handler"
+    },
+    {
+      "type": "library",
+      "name": "react-native-localize",
+      "version": "3.2.0",
+      "license": "MIT",
+      "purl": "pkg:npm/react-native-localize@3.2.0",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/react-native-localize"
+    },
+    {
+      "type": "library",
+      "name": "react-native-mmkv",
+      "version": "2.12.2",
+      "license": "(MIT AND BSD-3-Clause)",
+      "purl": "pkg:npm/react-native-mmkv@2.12.2",
+      "vulnerabilities": [
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "react-native-mmkv Insertion of Sensitive Information into Log File vulnerability",
+          "severity": "MODERATE",
+          "references": [
+            {
+              "url": "https://github.com/mrousavy/react-native-mmkv/security/advisories/GHSA-4jh3-6jhv-2mgp"
+            },
+            {
+              "url": "https://github.com/mrousavy/react-native-mmkv/commit/a8995ccb7184281f7d168bad3e9987c9bd05f00d"
+            },
+            {
+              "url": "https://github.com/mrousavy/react-native-mmkv/releases/tag/v2.11.0"
+            },
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-21668"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-4jh3-6jhv-2mgp"
+            }
+          ],
+          "fixedVersion": "N/A"
+        }
+      ],
+      "repository": "https://www.npmjs.com/package/react-native-mmkv"
+    },
+    {
+      "type": "library",
+      "name": "react-native-progress",
+      "version": "5.0.1",
+      "license": "MIT",
+      "purl": "pkg:npm/react-native-progress@5.0.1",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/react-native-progress"
+    },
+    {
+      "type": "library",
+      "name": "react-native-reanimated",
+      "version": "3.15.0",
+      "license": "MIT",
+      "purl": "pkg:npm/react-native-reanimated@3.15.0",
+      "vulnerabilities": [
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "react-native-reanimated vulnerable to ReDoS",
+          "severity": "HIGH",
+          "references": [
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-24373"
+            },
+            {
+              "url": "https://github.com/software-mansion/react-native-reanimated/pull/3382"
+            },
+            {
+              "url": "https://github.com/software-mansion/react-native-reanimated/pull/3382/commits/7adf06d0c59382d884a04be86a96eede3d0432fa"
+            },
+            {
+              "url": "https://github.com/software-mansion/react-native-reanimated/releases/tag/3.0.0-rc.1"
+            },
+            {
+              "url": "https://security.snyk.io/vuln/SNYK-JS-REACTNATIVEREANIMATED-2949507"
+            },
+            {
+              "url": "https://github.com/software-mansion/react-native-reanimated/commit/8a927904366fa2d02df7a11553f8b0aa93471279"
+            },
+            {
+              "url": "https://github.com/software-mansion/react-native-reanimated/compare/2.9.1...2.10.0"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-2j79-8pqc-r7x6"
+            }
+          ],
+          "fixedVersion": "N/A"
+        }
+      ],
+      "repository": "https://www.npmjs.com/package/react-native-reanimated"
+    },
+    {
+      "type": "library",
+      "name": "react-native-safe-area-context",
+      "version": "4.10.8",
+      "license": "MIT",
+      "purl": "pkg:npm/react-native-safe-area-context@4.10.8",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/react-native-safe-area-context"
+    },
+    {
+      "type": "library",
+      "name": "react-native-screens",
+      "version": "3.31.0",
+      "license": "MIT",
+      "purl": "pkg:npm/react-native-screens@3.31.0",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/react-native-screens"
+    },
+    {
+      "type": "library",
+      "name": "react-native-select-dropdown",
+      "version": "4.0.1",
+      "license": "MIT",
+      "purl": "pkg:npm/react-native-select-dropdown@4.0.1",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/react-native-select-dropdown"
+    },
+    {
+      "type": "library",
+      "name": "react-native-svg",
+      "version": "15.4.0",
+      "license": "MIT",
+      "purl": "pkg:npm/react-native-svg@15.4.0",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/react-native-svg"
+    },
+    {
+      "type": "library",
+      "name": "react-native-vector-icons",
+      "version": "10.1.0",
+      "license": "MIT",
+      "purl": "pkg:npm/react-native-vector-icons@10.1.0",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/react-native-vector-icons"
+    },
+    {
+      "type": "library",
+      "name": "ts-case-convert",
+      "version": "2.0.7",
+      "license": "Apache-2.0",
+      "purl": "pkg:npm/ts-case-convert@2.0.7",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/ts-case-convert"
+    },
+    {
+      "type": "library",
+      "name": "zod",
+      "version": "3.23.0",
+      "license": "MIT",
+      "purl": "pkg:npm/zod@3.23.0",
+      "vulnerabilities": [
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "Zod denial of service vulnerability",
+          "severity": "MODERATE",
+          "references": [
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-4316"
+            },
+            {
+              "url": "https://www.npmjs.com/package/zod"
+            },
+            {
+              "url": "https://github.com/colinhacks/zod/issues/2609"
+            },
+            {
+              "url": "https://github.com/colinhacks/zod/pull/2824"
+            },
+            {
+              "url": "https://github.com/colinhacks/zod/commit/2ba00fe2377f4d53947a84b8cdb314a63bbd6dd4"
+            },
+            {
+              "url": "https://github.com/colinhacks/zod/releases/tag/v3.22.3"
+            },
+            {
+              "url": "https://fluidattacks.com/advisories/swift"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-m95q-7qp3-xv42"
+            }
+          ],
+          "fixedVersion": "N/A"
+        }
+      ],
+      "repository": "https://www.npmjs.com/package/zod"
+    },
+    {
+      "type": "library",
+      "name": "babel-jest",
+      "version": "29.6.3",
+      "license": "MIT",
+      "purl": "pkg:npm/babel-jest@29.6.3",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/babel-jest"
+    },
+    {
+      "type": "library",
+      "name": "babel-plugin-inline-dotenv",
+      "version": "1.7.0",
+      "license": "ISC",
+      "purl": "pkg:npm/babel-plugin-inline-dotenv@1.7.0",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/babel-plugin-inline-dotenv"
+    },
+    {
+      "type": "library",
+      "name": "babel-plugin-module-resolver",
+      "version": "5.0.0",
+      "license": "MIT",
+      "purl": "pkg:npm/babel-plugin-module-resolver@5.0.0",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/babel-plugin-module-resolver"
+    },
+    {
+      "type": "library",
+      "name": "babel-plugin-root-import",
+      "version": "6.6.0",
+      "license": "MIT",
+      "purl": "pkg:npm/babel-plugin-root-import@6.6.0",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/babel-plugin-root-import"
+    },
+    {
+      "type": "library",
+      "name": "dotenv",
+      "version": "16.3.1",
+      "license": "BSD-2-Clause",
+      "purl": "pkg:npm/dotenv@16.3.1",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/dotenv"
+    },
+    {
+      "type": "library",
+      "name": "eslint",
+      "version": "9.8.0",
+      "license": "MIT",
+      "purl": "pkg:npm/eslint@9.8.0",
+      "vulnerabilities": [
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "Regular Expression Denial of Service",
+          "severity": "MODERATE",
+          "references": [
+            {
+              "url": "https://github.com/eslint/eslint/issues/10002"
+            },
+            {
+              "url": "https://github.com/eslint/eslint/commit/f6901d0bcf6c918ac4e5c6c7c4bddeb2cb715c09"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-jcgq-xh2f-2hfm"
+            }
+          ],
+          "fixedVersion": "N/A"
+        }
+      ],
+      "repository": "https://www.npmjs.com/package/eslint"
+    },
+    {
+      "type": "library",
+      "name": "eslint-config-airbnb",
+      "version": "19.0.4",
+      "license": "MIT",
+      "purl": "pkg:npm/eslint-config-airbnb@19.0.4",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/eslint-config-airbnb"
+    },
+    {
+      "type": "library",
+      "name": "eslint-config-airbnb-typescript",
+      "version": "17.1.0",
+      "license": "MIT",
+      "purl": "pkg:npm/eslint-config-airbnb-typescript@17.1.0",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/eslint-config-airbnb-typescript"
+    },
+    {
+      "type": "library",
+      "name": "eslint-import-resolver-typescript",
+      "version": "3.6.1",
+      "license": "ISC",
+      "purl": "pkg:npm/eslint-import-resolver-typescript@3.6.1",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/eslint-import-resolver-typescript"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-import",
+      "version": "2.29.0",
+      "license": "MIT",
+      "purl": "pkg:npm/eslint-plugin-import@2.29.0",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/eslint-plugin-import"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-jsx-a11y",
+      "version": "6.8.0",
+      "license": "MIT",
+      "purl": "pkg:npm/eslint-plugin-jsx-a11y@6.8.0",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/eslint-plugin-jsx-a11y"
+    },
+    {
+      "type": "library",
+      "name": "jest",
+      "version": "29.2.1",
+      "license": "MIT",
+      "purl": "pkg:npm/jest@29.2.1",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/jest"
+    },
+    {
+      "type": "library",
+      "name": "prettier",
+      "version": "2.8.8",
+      "license": "MIT",
+      "purl": "pkg:npm/prettier@2.8.8",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/prettier"
+    },
+    {
+      "type": "library",
+      "name": "react-test-renderer",
+      "version": "18.2.0",
+      "license": "MIT",
+      "purl": "pkg:npm/react-test-renderer@18.2.0",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/react-test-renderer"
+    },
+    {
+      "type": "library",
+      "name": "reactotron-react-native",
+      "version": "5.1.6",
+      "license": "MIT",
+      "purl": "pkg:npm/reactotron-react-native@5.1.6",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/reactotron-react-native"
+    },
+    {
+      "type": "library",
+      "name": "reactotron-react-native-mmkv",
+      "version": "0.2.6",
+      "license": "MIT",
+      "purl": "pkg:npm/reactotron-react-native-mmkv@0.2.6",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/reactotron-react-native-mmkv"
+    },
+    {
+      "type": "library",
+      "name": "reactotron-react-query",
+      "version": "1.0.4",
+      "license": "MIT",
+      "purl": "pkg:npm/reactotron-react-query@1.0.4",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/reactotron-react-query"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "5.1.3",
+      "license": "Apache-2.0",
+      "purl": "pkg:npm/typescript@5.1.3",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/typescript"
+    }
+  ]
+}

@@ -1,0 +1,1107 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "summary": {
+    "totalComponents": 33,
+    "totalVulnerabilities": 9
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "axios",
+      "version": "1.7.3",
+      "license": "MIT",
+      "purl": "pkg:npm/axios@1.7.3",
+      "vulnerabilities": [
+        {
+          "id": "GHSA-8hc4-vh64-cxmj",
+          "summary": "Server-Side Request Forgery in axios",
+          "severity": "HIGH",
+          "references": [
+            {
+              "type": "ADVISORY",
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-39338"
+            },
+            {
+              "type": "WEB",
+              "url": "https://github.com/axios/axios/issues/6463"
+            },
+            {
+              "type": "WEB",
+              "url": "https://github.com/axios/axios/pull/6539"
+            },
+            {
+              "type": "WEB",
+              "url": "https://github.com/axios/axios/pull/6543"
+            },
+            {
+              "type": "WEB",
+              "url": "https://github.com/axios/axios/commit/6b6b605eaf73852fb2dae033f1e786155959de3a"
+            },
+            {
+              "type": "PACKAGE",
+              "url": "https://github.com/axios/axios"
+            },
+            {
+              "type": "WEB",
+              "url": "https://github.com/axios/axios/releases"
+            },
+            {
+              "type": "WEB",
+              "url": "https://github.com/axios/axios/releases/tag/v1.7.4"
+            },
+            {
+              "type": "WEB",
+              "url": "https://jeffhacks.com/advisories/2024/06/24/CVE-2024-39338.html"
+            }
+          ],
+          "fixedVersion": "N/A"
+        },
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "Server-Side Request Forgery in axios",
+          "severity": "HIGH",
+          "references": [
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-39338"
+            },
+            {
+              "url": "https://github.com/axios/axios/releases"
+            },
+            {
+              "url": "https://jeffhacks.com/advisories/2024/06/24/CVE-2024-39338.html"
+            },
+            {
+              "url": "https://github.com/axios/axios/issues/6463"
+            },
+            {
+              "url": "https://github.com/axios/axios/pull/6539"
+            },
+            {
+              "url": "https://github.com/axios/axios/pull/6543"
+            },
+            {
+              "url": "https://github.com/axios/axios/commit/6b6b605eaf73852fb2dae033f1e786155959de3a"
+            },
+            {
+              "url": "https://github.com/axios/axios/releases/tag/v1.7.4"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-8hc4-vh64-cxmj"
+            }
+          ],
+          "fixedVersion": "N/A"
+        },
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "Axios Cross-Site Request Forgery Vulnerability",
+          "severity": "MODERATE",
+          "references": [
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-45857"
+            },
+            {
+              "url": "https://github.com/axios/axios/issues/6006"
+            },
+            {
+              "url": "https://github.com/axios/axios/issues/6022"
+            },
+            {
+              "url": "https://github.com/axios/axios/pull/6028"
+            },
+            {
+              "url": "https://github.com/axios/axios/commit/96ee232bd3ee4de2e657333d4d2191cd389e14d0"
+            },
+            {
+              "url": "https://github.com/axios/axios/releases/tag/v1.6.0"
+            },
+            {
+              "url": "https://security.snyk.io/vuln/SNYK-JS-AXIOS-6032459"
+            },
+            {
+              "url": "https://github.com/axios/axios/pull/6091"
+            },
+            {
+              "url": "https://github.com/axios/axios/commit/2755df562b9c194fba6d8b609a383443f6a6e967"
+            },
+            {
+              "url": "https://github.com/axios/axios/releases/tag/v0.28.0"
+            },
+            {
+              "url": "https://security.netapp.com/advisory/ntap-20240621-0006"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-wf5p-g6vw-rhxx"
+            }
+          ],
+          "fixedVersion": "N/A"
+        },
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "Axios Cross-Site Request Forgery Vulnerability",
+          "severity": "MODERATE",
+          "references": [
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-45857"
+            },
+            {
+              "url": "https://github.com/axios/axios/issues/6006"
+            },
+            {
+              "url": "https://github.com/axios/axios/issues/6022"
+            },
+            {
+              "url": "https://github.com/axios/axios/pull/6028"
+            },
+            {
+              "url": "https://github.com/axios/axios/commit/96ee232bd3ee4de2e657333d4d2191cd389e14d0"
+            },
+            {
+              "url": "https://github.com/axios/axios/releases/tag/v1.6.0"
+            },
+            {
+              "url": "https://security.snyk.io/vuln/SNYK-JS-AXIOS-6032459"
+            },
+            {
+              "url": "https://github.com/axios/axios/pull/6091"
+            },
+            {
+              "url": "https://github.com/axios/axios/commit/2755df562b9c194fba6d8b609a383443f6a6e967"
+            },
+            {
+              "url": "https://github.com/axios/axios/releases/tag/v0.28.0"
+            },
+            {
+              "url": "https://security.netapp.com/advisory/ntap-20240621-0006"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-wf5p-g6vw-rhxx"
+            }
+          ],
+          "fixedVersion": "N/A"
+        },
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "axios Inefficient Regular Expression Complexity vulnerability",
+          "severity": "HIGH",
+          "references": [
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-3749"
+            },
+            {
+              "url": "https://github.com/axios/axios/commit/5b457116e31db0e88fede6c428e969e87f290929"
+            },
+            {
+              "url": "https://huntr.dev/bounties/1e8f07fc-c384-4ff9-8498-0690de2e8c31"
+            },
+            {
+              "url": "https://www.npmjs.com/package/axios"
+            },
+            {
+              "url": "https://lists.apache.org/thread.html/r075d464dce95cd13c03ff9384658edcccd5ab2983b82bfc72b62bb10@%3Ccommits.druid.apache.org%3E"
+            },
+            {
+              "url": "https://lists.apache.org/thread.html/r216f0fd0a3833856d6a6a1fada488cadba45f447d87010024328ccf2@%3Ccommits.druid.apache.org%3E"
+            },
+            {
+              "url": "https://lists.apache.org/thread.html/r3ae6d2654f92c5851bdb73b35e96b0e4e3da39f28ac7a1b15ae3aab8@%3Ccommits.druid.apache.org%3E"
+            },
+            {
+              "url": "https://lists.apache.org/thread.html/r4bf1b32983f50be00f9752214c1b53738b621be1c2b0dbd68c7f2391@%3Ccommits.druid.apache.org%3E"
+            },
+            {
+              "url": "https://lists.apache.org/thread.html/r7324ecc35b8027a51cb6ed629490fcd3b2d7cf01c424746ed5744bf1@%3Ccommits.druid.apache.org%3E"
+            },
+            {
+              "url": "https://lists.apache.org/thread.html/r74d0b359408fff31f87445261f0ee13bdfcac7d66f6b8e846face321@%3Ccommits.druid.apache.org%3E"
+            },
+            {
+              "url": "https://lists.apache.org/thread.html/ra15d63c54dc6474b29f72ae4324bcb03038758545b3ab800845de7a1@%3Ccommits.druid.apache.org%3E"
+            },
+            {
+              "url": "https://lists.apache.org/thread.html/rc263bfc5b53afcb7e849605478d73f5556eb0c00d1f912084e407289@%3Ccommits.druid.apache.org%3E"
+            },
+            {
+              "url": "https://lists.apache.org/thread.html/rfa094029c959da0f7c8cd7dc9c4e59d21b03457bf0cedf6c93e1bb0a@%3Cdev.druid.apache.org%3E"
+            },
+            {
+              "url": "https://lists.apache.org/thread.html/rfc5c478053ff808671aef170f3d9fc9d05cc1fab8fb64431edc66103@%3Ccommits.druid.apache.org%3E"
+            },
+            {
+              "url": "https://www.oracle.com/security-alerts/cpujul2022.html"
+            },
+            {
+              "url": "https://cert-portal.siemens.com/productcert/pdf/ssa-637483.pdf"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-cph5-m8f7-6c5x"
+            }
+          ],
+          "fixedVersion": "N/A"
+        },
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "Axios vulnerable to Server-Side Request Forgery",
+          "severity": "MODERATE",
+          "references": [
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-28168"
+            },
+            {
+              "url": "https://github.com/axios/axios/issues/3369"
+            },
+            {
+              "url": "https://github.com/axios/axios/commit/c7329fefc890050edd51e40e469a154d0117fc55"
+            },
+            {
+              "url": "https://snyk.io/vuln/SNYK-JS-AXIOS-1038255"
+            },
+            {
+              "url": "https://www.npmjs.com/package/axios"
+            },
+            {
+              "url": "https://www.npmjs.com/advisories/1594"
+            },
+            {
+              "url": "https://lists.apache.org/thread.html/r954d80fd18e9dafef6e813963eb7e08c228151c2b6268ecd63b35d1f@%3Ccommits.druid.apache.org%3E"
+            },
+            {
+              "url": "https://lists.apache.org/thread.html/r25d53acd06f29244b8a103781b0339c5e7efee9099a4d52f0c230e4a@%3Ccommits.druid.apache.org%3E"
+            },
+            {
+              "url": "https://lists.apache.org/thread.html/rdfd2901b8b697a3f6e2c9c6ecc688fd90d7f881937affb5144d61d6e@%3Ccommits.druid.apache.org%3E"
+            },
+            {
+              "url": "https://cert-portal.siemens.com/productcert/pdf/ssa-637483.pdf"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-4w2v-q235-vp99"
+            }
+          ],
+          "fixedVersion": "N/A"
+        },
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "Denial of Service in axios",
+          "severity": "HIGH",
+          "references": [
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-10742"
+            },
+            {
+              "url": "https://app.snyk.io/vuln/SNYK-JS-AXIOS-174505"
+            },
+            {
+              "url": "https://github.com/axios/axios/issues/1098"
+            },
+            {
+              "url": "https://github.com/axios/axios/pull/1485"
+            },
+            {
+              "url": "https://snyk.io/vuln/SNYK-JS-AXIOS-174505"
+            },
+            {
+              "url": "https://www.npmjs.com/advisories/880"
+            },
+            {
+              "url": "https://github.com/axios/axios/commit/acabfbdf00a58bb866c9d070e8a10d1d0dbeb572"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-42xw-2xvc-qx8m"
+            }
+          ],
+          "fixedVersion": "N/A"
+        }
+      ],
+      "repository": "https://www.npmjs.com/package/axios"
+    },
+    {
+      "type": "library",
+      "name": "expo",
+      "version": "51.0.18",
+      "license": "MIT",
+      "purl": "pkg:npm/expo@51.0.18",
+      "vulnerabilities": [
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "Expo on iOS is insecure due incorrect security attribute application",
+          "severity": "MODERATE",
+          "references": [
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-24653"
+            },
+            {
+              "url": "https://github.com/expo/expo/pull/9264"
+            },
+            {
+              "url": "https://github.com/expo/expo/commit/1d82bf07fae2c96273e9189997e521359cffc1a9#diff-5b2820f378da980bd8a8185e2e1b2f9ce085d834534483f29c67932f282cc5c9"
+            },
+            {
+              "url": "https://github.com/expo/expo/blob/main/packages/expo-secure-store/CHANGELOG.md"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-rwx9-wqj8-vr77"
+            }
+          ],
+          "fixedVersion": "N/A"
+        }
+      ],
+      "repository": "https://www.npmjs.com/package/expo"
+    },
+    {
+      "type": "library",
+      "name": "expo-barcode-scanner",
+      "version": "13.0.1",
+      "license": "MIT",
+      "purl": "pkg:npm/expo-barcode-scanner@13.0.1",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/expo-barcode-scanner"
+    },
+    {
+      "type": "library",
+      "name": "react",
+      "version": "18.2.0",
+      "license": "MIT",
+      "purl": "pkg:npm/react@18.2.0",
+      "vulnerabilities": [
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "Cross-Site Scripting in react",
+          "severity": "HIGH",
+          "references": [
+            {
+              "url": "https://snyk.io/vuln/npm:react:20150318"
+            },
+            {
+              "url": "https://www.npmjs.com/advisories/1347"
+            },
+            {
+              "url": "http://danlec.com/blog/xss-via-a-spoofed-react-element"
+            },
+            {
+              "url": "https://github.com/facebook/react"
+            },
+            {
+              "url": "https://reactjs.org/blog/2015/10/07/react-v0.14.html#notable-enhancements"
+            },
+            {
+              "url": "https://reactjs.org/blog/2019/10/22/react-release-channels.html#experimental-channel"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-hg79-j56m-fxgv"
+            }
+          ],
+          "fixedVersion": "N/A"
+        },
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "Cross-Site Scripting in react",
+          "severity": "MODERATE",
+          "references": [
+            {
+              "url": "https://reactjs.org/blog/2013/12/18/react-v0.5.2-v0.4.2.html"
+            },
+            {
+              "url": "https://snyk.io/vuln/npm:react:20131217"
+            },
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2013-7035"
+            },
+            {
+              "url": "https://github.com/facebook/react/commit/393a889aaceb761f058b09a701f889fa8f8b4e64"
+            },
+            {
+              "url": "https://github.com/facebook/react/commit/94a9a3e752fe089ab23f3a90c26d20d46d62ab10"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-g53w-52xc-2j85"
+            }
+          ],
+          "fixedVersion": "N/A"
+        },
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "Cross-Site Scripting in react",
+          "severity": "MODERATE",
+          "references": [
+            {
+              "url": "https://reactjs.org/blog/2013/12/18/react-v0.5.2-v0.4.2.html"
+            },
+            {
+              "url": "https://snyk.io/vuln/npm:react:20131217"
+            },
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2013-7035"
+            },
+            {
+              "url": "https://github.com/facebook/react/commit/393a889aaceb761f058b09a701f889fa8f8b4e64"
+            },
+            {
+              "url": "https://github.com/facebook/react/commit/94a9a3e752fe089ab23f3a90c26d20d46d62ab10"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-g53w-52xc-2j85"
+            }
+          ],
+          "fixedVersion": "N/A"
+        }
+      ],
+      "repository": "https://www.npmjs.com/package/react"
+    },
+    {
+      "type": "library",
+      "name": "react-native",
+      "version": "0.74.3",
+      "license": "MIT",
+      "purl": "pkg:npm/react-native@0.74.3",
+      "vulnerabilities": [
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "Regular expression denial of service in react-native",
+          "severity": "HIGH",
+          "references": [
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-1920"
+            },
+            {
+              "url": "https://github.com/facebook/react-native/commit/ca09ae82715e33c9ac77b3fa55495cf84ba891c7"
+            },
+            {
+              "url": "https://github.com/facebook/react-native/releases/tag/v0.64.1"
+            },
+            {
+              "url": "https://www.npmjs.com/package/react-native"
+            },
+            {
+              "url": "https://github.com/facebook/react-native/releases/tag/v0.62.3"
+            },
+            {
+              "url": "https://securitylab.github.com/advisories/GHSL-2020-293-redos-react-native/"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-7f53-fmmv-mfjv"
+            }
+          ],
+          "fixedVersion": "N/A"
+        },
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "Regular expression denial of service in react-native",
+          "severity": "HIGH",
+          "references": [
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-1920"
+            },
+            {
+              "url": "https://github.com/facebook/react-native/commit/ca09ae82715e33c9ac77b3fa55495cf84ba891c7"
+            },
+            {
+              "url": "https://github.com/facebook/react-native/releases/tag/v0.64.1"
+            },
+            {
+              "url": "https://www.npmjs.com/package/react-native"
+            },
+            {
+              "url": "https://github.com/facebook/react-native/releases/tag/v0.62.3"
+            },
+            {
+              "url": "https://securitylab.github.com/advisories/GHSL-2020-293-redos-react-native/"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-7f53-fmmv-mfjv"
+            }
+          ],
+          "fixedVersion": "N/A"
+        }
+      ],
+      "repository": "https://www.npmjs.com/package/react-native"
+    },
+    {
+      "type": "library",
+      "name": "react-native-device-info",
+      "version": "11.1.0",
+      "license": "MIT",
+      "purl": "pkg:npm/react-native-device-info@11.1.0",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/react-native-device-info"
+    },
+    {
+      "type": "library",
+      "name": "react-native-document-picker",
+      "version": "9.3.0",
+      "license": "MIT",
+      "purl": "pkg:npm/react-native-document-picker@9.3.0",
+      "vulnerabilities": [
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "React Native Document Picker Directory Traversal vulnerability",
+          "severity": "HIGH",
+          "references": [
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-25466"
+            },
+            {
+              "url": "https://github.com/FixedOctocat/CVE-2024-25466/tree/main"
+            },
+            {
+              "url": "https://github.com/rnmods/react-native-document-picker/blob/0be5a70c3b456e35c2454aaf4dc8c2d40eb2ab47/android/src/main/java/com/reactnativedocumentpicker/RNDocumentPickerModule.java"
+            },
+            {
+              "url": "https://github.com/rnmods/react-native-document-picker/commit/1ae7cb217d23a551bff86ad10c7ae6f5e074490f"
+            },
+            {
+              "url": "https://github.com/rnmods/react-native-document-picker/pull/698"
+            },
+            {
+              "url": "https://github.com/rnmods/react-native-document-picker/commit/ad0b5e58252eba56a5a3b22311a66ffa5e65cffe"
+            },
+            {
+              "url": "https://github.com/rnmods/react-native-document-picker/releases/tag/v8.2.2"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-pmgm-h3cc-m4hj"
+            }
+          ],
+          "fixedVersion": "N/A"
+        },
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "React Native Document Picker Directory Traversal vulnerability",
+          "severity": "HIGH",
+          "references": [
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-25466"
+            },
+            {
+              "url": "https://github.com/FixedOctocat/CVE-2024-25466/tree/main"
+            },
+            {
+              "url": "https://github.com/rnmods/react-native-document-picker/blob/0be5a70c3b456e35c2454aaf4dc8c2d40eb2ab47/android/src/main/java/com/reactnativedocumentpicker/RNDocumentPickerModule.java"
+            },
+            {
+              "url": "https://github.com/rnmods/react-native-document-picker/commit/1ae7cb217d23a551bff86ad10c7ae6f5e074490f"
+            },
+            {
+              "url": "https://github.com/rnmods/react-native-document-picker/pull/698"
+            },
+            {
+              "url": "https://github.com/rnmods/react-native-document-picker/commit/ad0b5e58252eba56a5a3b22311a66ffa5e65cffe"
+            },
+            {
+              "url": "https://github.com/rnmods/react-native-document-picker/releases/tag/v8.2.2"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-pmgm-h3cc-m4hj"
+            }
+          ],
+          "fixedVersion": "N/A"
+        }
+      ],
+      "repository": "https://www.npmjs.com/package/react-native-document-picker"
+    },
+    {
+      "type": "library",
+      "name": "react-native-draggable-flatlist",
+      "version": "4.0.1",
+      "license": "MIT",
+      "purl": "pkg:npm/react-native-draggable-flatlist@4.0.1",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/react-native-draggable-flatlist"
+    },
+    {
+      "type": "library",
+      "name": "react-native-gesture-handler",
+      "version": "2.15.0",
+      "license": "MIT",
+      "purl": "pkg:npm/react-native-gesture-handler@2.15.0",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/react-native-gesture-handler"
+    },
+    {
+      "type": "library",
+      "name": "react-native-image-picker",
+      "version": "7.1.2",
+      "license": "MIT",
+      "purl": "pkg:npm/react-native-image-picker@7.1.2",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/react-native-image-picker"
+    },
+    {
+      "type": "library",
+      "name": "react-native-mmkv",
+      "version": "2.12.2",
+      "license": "(MIT AND BSD-3-Clause)",
+      "purl": "pkg:npm/react-native-mmkv@2.12.2",
+      "vulnerabilities": [
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "react-native-mmkv Insertion of Sensitive Information into Log File vulnerability",
+          "severity": "MODERATE",
+          "references": [
+            {
+              "url": "https://github.com/mrousavy/react-native-mmkv/security/advisories/GHSA-4jh3-6jhv-2mgp"
+            },
+            {
+              "url": "https://github.com/mrousavy/react-native-mmkv/commit/a8995ccb7184281f7d168bad3e9987c9bd05f00d"
+            },
+            {
+              "url": "https://github.com/mrousavy/react-native-mmkv/releases/tag/v2.11.0"
+            },
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-21668"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-4jh3-6jhv-2mgp"
+            }
+          ],
+          "fixedVersion": "N/A"
+        }
+      ],
+      "repository": "https://www.npmjs.com/package/react-native-mmkv"
+    },
+    {
+      "type": "library",
+      "name": "react-native-orientation-locker",
+      "version": "1.7.0",
+      "license": "MIT",
+      "purl": "pkg:npm/react-native-orientation-locker@1.7.0",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/react-native-orientation-locker"
+    },
+    {
+      "type": "library",
+      "name": "react-native-progress",
+      "version": "5.0.1",
+      "license": "MIT",
+      "purl": "pkg:npm/react-native-progress@5.0.1",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/react-native-progress"
+    },
+    {
+      "type": "library",
+      "name": "react-native-reanimated",
+      "version": "3.12.1",
+      "license": "MIT",
+      "purl": "pkg:npm/react-native-reanimated@3.12.1",
+      "vulnerabilities": [
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "react-native-reanimated vulnerable to ReDoS",
+          "severity": "HIGH",
+          "references": [
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-24373"
+            },
+            {
+              "url": "https://github.com/software-mansion/react-native-reanimated/pull/3382"
+            },
+            {
+              "url": "https://github.com/software-mansion/react-native-reanimated/pull/3382/commits/7adf06d0c59382d884a04be86a96eede3d0432fa"
+            },
+            {
+              "url": "https://github.com/software-mansion/react-native-reanimated/releases/tag/3.0.0-rc.1"
+            },
+            {
+              "url": "https://security.snyk.io/vuln/SNYK-JS-REACTNATIVEREANIMATED-2949507"
+            },
+            {
+              "url": "https://github.com/software-mansion/react-native-reanimated/commit/8a927904366fa2d02df7a11553f8b0aa93471279"
+            },
+            {
+              "url": "https://github.com/software-mansion/react-native-reanimated/compare/2.9.1...2.10.0"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-2j79-8pqc-r7x6"
+            }
+          ],
+          "fixedVersion": "N/A"
+        }
+      ],
+      "repository": "https://www.npmjs.com/package/react-native-reanimated"
+    },
+    {
+      "type": "library",
+      "name": "react-native-safe-area-context",
+      "version": "4.10.8",
+      "license": "MIT",
+      "purl": "pkg:npm/react-native-safe-area-context@4.10.8",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/react-native-safe-area-context"
+    },
+    {
+      "type": "library",
+      "name": "react-native-screens",
+      "version": "3.29.0",
+      "license": "MIT",
+      "purl": "pkg:npm/react-native-screens@3.29.0",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/react-native-screens"
+    },
+    {
+      "type": "library",
+      "name": "react-native-splash-screen",
+      "version": "3.3.0",
+      "license": "MIT",
+      "purl": "pkg:npm/react-native-splash-screen@3.3.0",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/react-native-splash-screen"
+    },
+    {
+      "type": "library",
+      "name": "react-native-svg",
+      "version": "15.1.0",
+      "license": "MIT",
+      "purl": "pkg:npm/react-native-svg@15.1.0",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/react-native-svg"
+    },
+    {
+      "type": "library",
+      "name": "react-native-swipeable-item",
+      "version": "2.0.9",
+      "license": "MIT",
+      "purl": "pkg:npm/react-native-swipeable-item@2.0.9",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/react-native-swipeable-item"
+    },
+    {
+      "type": "library",
+      "name": "react-native-switch",
+      "version": "1.5.1",
+      "license": "MIT",
+      "purl": "pkg:npm/react-native-switch@1.5.1",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/react-native-switch"
+    },
+    {
+      "type": "library",
+      "name": "react-native-vector-icons",
+      "version": "10.0.3",
+      "license": "MIT",
+      "purl": "pkg:npm/react-native-vector-icons@10.0.3",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/react-native-vector-icons"
+    },
+    {
+      "type": "library",
+      "name": "react-native-webrtc",
+      "version": "124.0.3",
+      "license": "MIT",
+      "purl": "pkg:npm/react-native-webrtc@124.0.3",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/react-native-webrtc"
+    },
+    {
+      "type": "library",
+      "name": "semver",
+      "version": "7.6.3",
+      "license": "ISC",
+      "purl": "pkg:npm/semver@7.6.3",
+      "vulnerabilities": [
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "semver vulnerable to Regular Expression Denial of Service",
+          "severity": "HIGH",
+          "references": [
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-25883"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/pull/564"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/commit/717534ee353682f3bcf33e60a8af4292626d4441"
+            },
+            {
+              "url": "https://security.snyk.io/vuln/SNYK-JS-SEMVER-3247795"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/blob/main/classes/range.js#L97-L104"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/blob/main/internal/re.js#L138"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/blob/main/internal/re.js#L160"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/pull/585"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/commit/928e56d21150da0413a3333a3148b20e741a920c"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/pull/593"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/commit/2f8fd41487acf380194579ecb6f8b1bbfe116be0"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/blob/main/classes/range.js%23L97-L104"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/blob/main/internal/re.js%23L138"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/blob/main/internal/re.js%23L160"
+            },
+            {
+              "url": "https://security.netapp.com/advisory/ntap-20241025-0004"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-c2qf-rxjj-qqgw"
+            }
+          ],
+          "fixedVersion": "N/A"
+        },
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "semver vulnerable to Regular Expression Denial of Service",
+          "severity": "HIGH",
+          "references": [
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-25883"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/pull/564"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/commit/717534ee353682f3bcf33e60a8af4292626d4441"
+            },
+            {
+              "url": "https://security.snyk.io/vuln/SNYK-JS-SEMVER-3247795"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/blob/main/classes/range.js#L97-L104"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/blob/main/internal/re.js#L138"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/blob/main/internal/re.js#L160"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/pull/585"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/commit/928e56d21150da0413a3333a3148b20e741a920c"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/pull/593"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/commit/2f8fd41487acf380194579ecb6f8b1bbfe116be0"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/blob/main/classes/range.js%23L97-L104"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/blob/main/internal/re.js%23L138"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/blob/main/internal/re.js%23L160"
+            },
+            {
+              "url": "https://security.netapp.com/advisory/ntap-20241025-0004"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-c2qf-rxjj-qqgw"
+            }
+          ],
+          "fixedVersion": "N/A"
+        },
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "semver vulnerable to Regular Expression Denial of Service",
+          "severity": "HIGH",
+          "references": [
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-25883"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/pull/564"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/commit/717534ee353682f3bcf33e60a8af4292626d4441"
+            },
+            {
+              "url": "https://security.snyk.io/vuln/SNYK-JS-SEMVER-3247795"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/blob/main/classes/range.js#L97-L104"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/blob/main/internal/re.js#L138"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/blob/main/internal/re.js#L160"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/pull/585"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/commit/928e56d21150da0413a3333a3148b20e741a920c"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/pull/593"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/commit/2f8fd41487acf380194579ecb6f8b1bbfe116be0"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/blob/main/classes/range.js%23L97-L104"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/blob/main/internal/re.js%23L138"
+            },
+            {
+              "url": "https://github.com/npm/node-semver/blob/main/internal/re.js%23L160"
+            },
+            {
+              "url": "https://security.netapp.com/advisory/ntap-20241025-0004"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-c2qf-rxjj-qqgw"
+            }
+          ],
+          "fixedVersion": "N/A"
+        },
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "Regular Expression Denial of Service in semver",
+          "severity": "HIGH",
+          "references": [
+            {
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-8855"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-x6fg-f45m-jf5q"
+            },
+            {
+              "url": "https://www.npmjs.com/advisories/31"
+            },
+            {
+              "url": "https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS"
+            },
+            {
+              "url": "http://www.openwall.com/lists/oss-security/2016/04/20/11"
+            },
+            {
+              "url": "http://www.securityfocus.com/bid/86957"
+            }
+          ],
+          "fixedVersion": "N/A"
+        }
+      ],
+      "repository": "https://www.npmjs.com/package/semver"
+    },
+    {
+      "type": "library",
+      "name": "socket.io-client",
+      "version": "4.7.5",
+      "license": "MIT",
+      "purl": "pkg:npm/socket.io-client@4.7.5",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/socket.io-client"
+    },
+    {
+      "type": "library",
+      "name": "zustand",
+      "version": "4.5.4",
+      "license": "MIT",
+      "purl": "pkg:npm/zustand@4.5.4",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/zustand"
+    },
+    {
+      "type": "library",
+      "name": "babel-jest",
+      "version": "29.6.3",
+      "license": "MIT",
+      "purl": "pkg:npm/babel-jest@29.6.3",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/babel-jest"
+    },
+    {
+      "type": "library",
+      "name": "eslint",
+      "version": "8.19.0",
+      "license": "MIT",
+      "purl": "pkg:npm/eslint@8.19.0",
+      "vulnerabilities": [
+        {
+          "id": "GitHub-UNKNOWN",
+          "summary": "Regular Expression Denial of Service",
+          "severity": "MODERATE",
+          "references": [
+            {
+              "url": "https://github.com/eslint/eslint/issues/10002"
+            },
+            {
+              "url": "https://github.com/eslint/eslint/commit/f6901d0bcf6c918ac4e5c6c7c4bddeb2cb715c09"
+            },
+            {
+              "url": "https://github.com/advisories/GHSA-jcgq-xh2f-2hfm"
+            }
+          ],
+          "fixedVersion": "N/A"
+        }
+      ],
+      "repository": "https://www.npmjs.com/package/eslint"
+    },
+    {
+      "type": "library",
+      "name": "jest",
+      "version": "29.6.3",
+      "license": "MIT",
+      "purl": "pkg:npm/jest@29.6.3",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/jest"
+    },
+    {
+      "type": "library",
+      "name": "prettier",
+      "version": "2.8.8",
+      "license": "MIT",
+      "purl": "pkg:npm/prettier@2.8.8",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/prettier"
+    },
+    {
+      "type": "library",
+      "name": "react-native-svg-transformer",
+      "version": "1.3.0",
+      "license": "MIT",
+      "purl": "pkg:npm/react-native-svg-transformer@1.3.0",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/react-native-svg-transformer"
+    },
+    {
+      "type": "library",
+      "name": "react-test-renderer",
+      "version": "18.2.0",
+      "license": "MIT",
+      "purl": "pkg:npm/react-test-renderer@18.2.0",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/react-test-renderer"
+    },
+    {
+      "type": "library",
+      "name": "reactotron-react-native",
+      "version": "5.1.7",
+      "license": "MIT",
+      "purl": "pkg:npm/reactotron-react-native@5.1.7",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/reactotron-react-native"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "5.0.4",
+      "license": "Apache-2.0",
+      "purl": "pkg:npm/typescript@5.0.4",
+      "vulnerabilities": [],
+      "repository": "https://www.npmjs.com/package/typescript"
+    }
+  ]
+}

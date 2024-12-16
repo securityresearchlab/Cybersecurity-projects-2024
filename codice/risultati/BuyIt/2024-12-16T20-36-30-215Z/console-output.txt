@@ -1,0 +1,244 @@
+[INFO] Analisi avviata per il progetto: BuyIt
+[INFO] Directory del progetto: /home/andrea/Scrivania/SBOM/codice/dataset/BuyIt
+[INFO] Directory di output: /home/andrea/Scrivania/SBOM/codice/risultati/BuyIt/2024-12-16T20-36-30-215Z
+[*] Verifica e installazione delle dipendenze nella directory principale...
+[*] Sto installando le dipendenze dal file package.json...
+[*] Sto installando le dipendenze dal file yarn.lock...
+[!] Errore durante l'installazione con Yarn in /home/andrea/Scrivania/SBOM/codice/dataset/BuyIt: Command failed: yarn install > yarn-install.log 2>&1
+[!] Continuo con l'analisi delle dipendenze nonostante l'errore.
+[!] Dipendenza ignorata: @react-native-community/async-storage@1.10.1. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @react-native-community/datetimepicker@3.0.3. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @react-native-community/masked-view@0.1.10. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @react-native-firebase/analytics@8.0.1. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @react-native-firebase/app@9.0.0. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @react-native-firebase/auth@9.3.5. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @react-native-firebase/crashlytics@8.5.2. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @react-native-firebase/firestore@7.7.0. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @react-navigation/drawer@5.8.2. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @react-navigation/native@5.3.0. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @react-navigation/stack@5.3.4. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @babel/core@7.8.4. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @babel/runtime@7.8.4. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @react-native-community/eslint-config@1.1.0. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @redux-saga/testing-utils@1.1.3. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @testing-library/react-hooks@3.2.1. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @types/i18n-js@3.8.0. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @types/jest@24.0.24. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @types/react-native@0.62.0. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @types/react-native-push-notification@5.0.5. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @types/react-native-uuid@1.4.0. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @types/react-native-vector-icons@6.4.5. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @types/react-redux@7.1.8. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @types/react-test-renderer@16.9.2. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @types/redux@3.6.0. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @types/redux-persist@4.3.1. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @types/redux-saga@0.10.5. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @types/styled-components@5.1.0. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @types/yup@0.29.2. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @typescript-eslint/eslint-plugin@2.33.0. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @typescript-eslint/parser@2.33.0. Motivo: Nome o versione non specificati o non accettabili.
+[*] Verifica versioni più recenti per le dipendenze...
+[*] Verifica versioni più recenti per le dipendenze...
+[INFO] Versione più recente per date-fns: 4.1.0
+[INFO] Versione più recente per date-fns: 4.1.0
+[INFO] Versione più recente per i18n-js: 4.5.1
+[INFO] Versione più recente per i18n-js: 4.5.1
+[INFO] Versione più recente per react: 19.0.0
+[INFO] Versione più recente per react: 19.0.0
+[INFO] Versione più recente per react-native: 0.76.5
+[INFO] Versione più recente per react-native: 0.76.5
+[INFO] Versione più recente per react-native-bootsplash: 6.3.2
+[INFO] Versione più recente per react-native-bootsplash: 6.3.2
+[INFO] Versione più recente per react-native-camera: 4.2.1
+[INFO] Versione più recente per react-native-camera: 4.2.1
+[INFO] Versione più recente per react-native-config: 1.5.3
+[INFO] Versione più recente per react-native-config: 1.5.3
+[INFO] Versione più recente per react-native-gesture-handler: 2.21.2
+[INFO] Versione più recente per react-native-gesture-handler: 2.21.2
+[INFO] Versione più recente per react-native-iap: 12.15.7
+[INFO] Versione più recente per react-native-iap: 12.15.7
+[INFO] Versione più recente per react-native-localize: 3.3.0
+[INFO] Versione più recente per react-native-localize: 3.3.0
+[INFO] Versione più recente per react-native-paper: 5.12.5
+[INFO] Versione più recente per react-native-paper: 5.12.5
+[INFO] Versione più recente per react-native-push-notification: 8.1.1
+[INFO] Versione più recente per react-native-push-notification: 8.1.1
+[INFO] Versione più recente per react-native-reanimated: 3.16.5
+[INFO] Versione più recente per react-native-reanimated: 3.16.5
+[INFO] Versione più recente per react-native-restart: 0.0.27
+[INFO] Versione più recente per react-native-restart: 0.0.27
+[INFO] Versione più recente per react-native-safe-area-context: 5.0.0
+[INFO] Versione più recente per react-native-safe-area-context: 5.0.0
+[INFO] Versione più recente per react-native-screens: 4.3.0
+[INFO] Versione più recente per react-native-screens: 4.3.0
+[INFO] Versione più recente per react-native-svg: 15.10.1
+[INFO] Versione più recente per react-native-svg: 15.10.1
+[INFO] Versione più recente per react-native-uuid: 2.0.3
+[INFO] Versione più recente per react-native-uuid: 2.0.3
+[INFO] Versione più recente per react-native-vector-icons: 10.2.0
+[INFO] Versione più recente per react-native-vector-icons: 10.2.0
+[INFO] Versione più recente per react-redux: 9.2.0
+[INFO] Versione più recente per react-redux: 9.2.0
+[INFO] Versione più recente per redux: 5.0.1
+[INFO] Versione più recente per redux: 5.0.1
+[INFO] Versione più recente per redux-persist: 6.0.0
+[INFO] Versione più recente per redux-saga: 1.3.0
+[INFO] Versione più recente per redux-saga: 1.3.0
+[INFO] Versione più recente per styled-components: 6.1.13
+[INFO] Versione più recente per styled-components: 6.1.13
+[INFO] Versione più recente per yup: 1.6.0
+[INFO] Versione più recente per yup: 1.6.0
+[INFO] Versione più recente per babel-jest: 29.7.0
+[INFO] Versione più recente per babel-jest: 29.7.0
+[INFO] Versione più recente per babel-plugin-module-resolver: 5.0.2
+[INFO] Versione più recente per babel-plugin-module-resolver: 5.0.2
+[INFO] Versione più recente per eslint: 9.17.0
+[INFO] Versione più recente per eslint: 9.17.0
+[INFO] Versione più recente per eslint-plugin-import-helpers: 2.0.1
+[INFO] Versione più recente per eslint-plugin-import-helpers: 2.0.1
+[INFO] Versione più recente per eslint-plugin-react: 7.37.2
+[INFO] Versione più recente per eslint-plugin-react: 7.37.2
+[INFO] Versione più recente per eslint-plugin-typescript: 0.14.0
+[INFO] Versione più recente per husky: 9.1.7
+[INFO] Versione più recente per husky: 9.1.7
+[INFO] Versione più recente per jest: 29.7.0
+[INFO] Versione più recente per jest: 29.7.0
+[INFO] Versione più recente per metro-react-native-babel-preset: 0.77.0
+[INFO] Versione più recente per metro-react-native-babel-preset: 0.77.0
+[INFO] Versione più recente per prettier: 3.4.2
+[INFO] Versione più recente per prettier: 3.4.2
+[INFO] Versione più recente per react-native-svg-transformer: 1.5.0
+[INFO] Versione più recente per react-native-svg-transformer: 1.5.0
+[INFO] Versione più recente per react-test-renderer: 19.0.0
+[INFO] Versione più recente per react-test-renderer: 19.0.0
+[INFO] Versione più recente per redux-devtools-extension: 2.13.9
+[INFO] Versione più recente per redux-devtools-extension: 2.13.9
+[INFO] Versione più recente per sonarqube-scanner: 4.2.6
+[INFO] Versione più recente per sonarqube-scanner: 4.2.6
+[INFO] Versione più recente per typescript: 5.7.2
+[INFO] Versione più recente per typescript: 5.7.2
+[INFO] Fine verifica versioni più recenti.
+[*] Verifica delle vulnerabilità su OSV.dev e GitHub Advisory...
+[*] Verifica delle vulnerabilità su OSV.dev e GitHub Advisory...
+[DEBUG] OSV.dev per date-fns@2.16.1: [object Object]
+[DEBUG] Risposta GitHub per date-fns@2.16.1: [object Object]
+[DEBUG] GitHub Advisory per date-fns@2.16.1: 
+[DEBUG] OSV.dev per i18n-js@3.8.0: [object Object]
+[DEBUG] Risposta GitHub per i18n-js@3.8.0: [object Object]
+[DEBUG] GitHub Advisory per i18n-js@3.8.0: 
+[DEBUG] OSV.dev per react@16.13.1: [object Object]
+[DEBUG] Risposta GitHub per react@16.13.1: [object Object]
+[DEBUG] GitHub Advisory per react@16.13.1: [object Object],[object Object],[object Object]
+[DEBUG] OSV.dev per react-native@0.63.2: [object Object]
+[DEBUG] Risposta GitHub per react-native@0.63.2: [object Object]
+[DEBUG] GitHub Advisory per react-native@0.63.2: [object Object],[object Object]
+[DEBUG] OSV.dev per react-native-bootsplash@2.2.4: [object Object]
+[DEBUG] Risposta GitHub per react-native-bootsplash@2.2.4: [object Object]
+[DEBUG] GitHub Advisory per react-native-bootsplash@2.2.4: 
+[DEBUG] OSV.dev per react-native-camera@3.41.0: [object Object]
+[DEBUG] Risposta GitHub per react-native-camera@3.41.0: [object Object]
+[DEBUG] GitHub Advisory per react-native-camera@3.41.0: 
+[DEBUG] OSV.dev per react-native-config@1.2.1: [object Object]
+[DEBUG] Risposta GitHub per react-native-config@1.2.1: [object Object]
+[DEBUG] GitHub Advisory per react-native-config@1.2.1: 
+[DEBUG] OSV.dev per react-native-gesture-handler@1.6.1: [object Object]
+[DEBUG] Risposta GitHub per react-native-gesture-handler@1.6.1: [object Object]
+[DEBUG] GitHub Advisory per react-native-gesture-handler@1.6.1: 
+[DEBUG] OSV.dev per react-native-iap@5.1.3: [object Object]
+[DEBUG] Risposta GitHub per react-native-iap@5.1.3: [object Object]
+[DEBUG] GitHub Advisory per react-native-iap@5.1.3: 
+[DEBUG] OSV.dev per react-native-localize@2.0.1: [object Object]
+[DEBUG] Risposta GitHub per react-native-localize@2.0.1: [object Object]
+[DEBUG] GitHub Advisory per react-native-localize@2.0.1: 
+[DEBUG] OSV.dev per react-native-paper@4.2.0: [object Object]
+[DEBUG] Risposta GitHub per react-native-paper@4.2.0: [object Object]
+[DEBUG] GitHub Advisory per react-native-paper@4.2.0: 
+[DEBUG] OSV.dev per react-native-push-notification@8.1.0: [object Object]
+[DEBUG] Risposta GitHub per react-native-push-notification@8.1.0: [object Object]
+[DEBUG] GitHub Advisory per react-native-push-notification@8.1.0: 
+[DEBUG] OSV.dev per react-native-reanimated@1.8.0: [object Object]
+[DEBUG] Risposta GitHub per react-native-reanimated@1.8.0: [object Object]
+[DEBUG] GitHub Advisory per react-native-reanimated@1.8.0: [object Object]
+[DEBUG] OSV.dev per react-native-restart@0.0.20: [object Object]
+[DEBUG] Risposta GitHub per react-native-restart@0.0.20: [object Object]
+[DEBUG] GitHub Advisory per react-native-restart@0.0.20: 
+[DEBUG] OSV.dev per react-native-safe-area-context@1.0.0: [object Object]
+[DEBUG] Risposta GitHub per react-native-safe-area-context@1.0.0: [object Object]
+[DEBUG] GitHub Advisory per react-native-safe-area-context@1.0.0: 
+[DEBUG] OSV.dev per react-native-screens@2.9.0: [object Object]
+[DEBUG] Risposta GitHub per react-native-screens@2.9.0: [object Object]
+[DEBUG] GitHub Advisory per react-native-screens@2.9.0: 
+[DEBUG] OSV.dev per react-native-svg@12.1.0: [object Object]
+[DEBUG] Risposta GitHub per react-native-svg@12.1.0: [object Object]
+[DEBUG] GitHub Advisory per react-native-svg@12.1.0: 
+[DEBUG] OSV.dev per react-native-uuid@1.4.9: [object Object]
+[DEBUG] Risposta GitHub per react-native-uuid@1.4.9: [object Object]
+[DEBUG] GitHub Advisory per react-native-uuid@1.4.9: 
+[DEBUG] OSV.dev per react-native-vector-icons@6.6.0: [object Object]
+[DEBUG] Risposta GitHub per react-native-vector-icons@6.6.0: [object Object]
+[DEBUG] GitHub Advisory per react-native-vector-icons@6.6.0: 
+[DEBUG] OSV.dev per react-redux@7.2.0: [object Object]
+[DEBUG] Risposta GitHub per react-redux@7.2.0: [object Object]
+[DEBUG] GitHub Advisory per react-redux@7.2.0: 
+[DEBUG] OSV.dev per redux@4.0.5: [object Object]
+[DEBUG] Risposta GitHub per redux@4.0.5: [object Object]
+[DEBUG] GitHub Advisory per redux@4.0.5: 
+[DEBUG] OSV.dev per redux-persist@6.0.0: [object Object]
+[DEBUG] Risposta GitHub per redux-persist@6.0.0: [object Object]
+[DEBUG] GitHub Advisory per redux-persist@6.0.0: 
+[DEBUG] OSV.dev per redux-saga@1.1.3: [object Object]
+[DEBUG] Risposta GitHub per redux-saga@1.1.3: [object Object]
+[DEBUG] GitHub Advisory per redux-saga@1.1.3: 
+[DEBUG] OSV.dev per styled-components@5.1.0: [object Object]
+[DEBUG] Risposta GitHub per styled-components@5.1.0: [object Object]
+[DEBUG] GitHub Advisory per styled-components@5.1.0: 
+[DEBUG] OSV.dev per yup@0.29.1: [object Object]
+[DEBUG] Risposta GitHub per yup@0.29.1: [object Object]
+[DEBUG] GitHub Advisory per yup@0.29.1: 
+[DEBUG] OSV.dev per babel-jest@24.9.0: [object Object]
+[DEBUG] Risposta GitHub per babel-jest@24.9.0: [object Object]
+[DEBUG] GitHub Advisory per babel-jest@24.9.0: 
+[DEBUG] OSV.dev per babel-plugin-module-resolver@4.0.0: [object Object]
+[DEBUG] Risposta GitHub per babel-plugin-module-resolver@4.0.0: [object Object]
+[DEBUG] GitHub Advisory per babel-plugin-module-resolver@4.0.0: 
+[DEBUG] OSV.dev per eslint@6.5.1: [object Object]
+[DEBUG] Risposta GitHub per eslint@6.5.1: [object Object]
+[DEBUG] GitHub Advisory per eslint@6.5.1: [object Object]
+[DEBUG] OSV.dev per eslint-plugin-import-helpers@1.1.0: [object Object]
+[DEBUG] Risposta GitHub per eslint-plugin-import-helpers@1.1.0: [object Object]
+[DEBUG] GitHub Advisory per eslint-plugin-import-helpers@1.1.0: 
+[DEBUG] OSV.dev per eslint-plugin-react@7.20.0: [object Object]
+[DEBUG] Risposta GitHub per eslint-plugin-react@7.20.0: [object Object]
+[DEBUG] GitHub Advisory per eslint-plugin-react@7.20.0: 
+[DEBUG] OSV.dev per eslint-plugin-typescript@0.14.0: [object Object]
+[DEBUG] Risposta GitHub per eslint-plugin-typescript@0.14.0: [object Object]
+[DEBUG] GitHub Advisory per eslint-plugin-typescript@0.14.0: 
+[DEBUG] OSV.dev per husky@4.2.5: [object Object]
+[DEBUG] Risposta GitHub per husky@4.2.5: [object Object]
+[DEBUG] GitHub Advisory per husky@4.2.5: 
+[DEBUG] OSV.dev per jest@25.1.0: [object Object]
+[DEBUG] Risposta GitHub per jest@25.1.0: [object Object]
+[DEBUG] GitHub Advisory per jest@25.1.0: 
+[DEBUG] OSV.dev per metro-react-native-babel-preset@0.59.0: [object Object]
+[DEBUG] Risposta GitHub per metro-react-native-babel-preset@0.59.0: [object Object]
+[DEBUG] GitHub Advisory per metro-react-native-babel-preset@0.59.0: 
+[DEBUG] OSV.dev per prettier@2.0.4: [object Object]
+[DEBUG] Risposta GitHub per prettier@2.0.4: [object Object]
+[DEBUG] GitHub Advisory per prettier@2.0.4: 
+[DEBUG] OSV.dev per react-native-svg-transformer@0.14.3: [object Object]
+[DEBUG] Risposta GitHub per react-native-svg-transformer@0.14.3: [object Object]
+[DEBUG] GitHub Advisory per react-native-svg-transformer@0.14.3: 
+[DEBUG] OSV.dev per react-test-renderer@16.13.1: [object Object]
+[DEBUG] Risposta GitHub per react-test-renderer@16.13.1: [object Object]
+[DEBUG] GitHub Advisory per react-test-renderer@16.13.1: 
+[DEBUG] OSV.dev per redux-devtools-extension@2.13.8: [object Object]
+[DEBUG] Risposta GitHub per redux-devtools-extension@2.13.8: [object Object]
+[DEBUG] GitHub Advisory per redux-devtools-extension@2.13.8: 
+[DEBUG] OSV.dev per sonarqube-scanner@2.6.0: [object Object]
+[DEBUG] Risposta GitHub per sonarqube-scanner@2.6.0: [object Object]
+[DEBUG] GitHub Advisory per sonarqube-scanner@2.6.0: 
+[DEBUG] OSV.dev per typescript@3.8.3: [object Object]
+[DEBUG] Risposta GitHub per typescript@3.8.3: [object Object]
+[DEBUG] GitHub Advisory per typescript@3.8.3: 
+[INFO] Vulnerabilità trovate: 4
+[INFO] Dettagli vulnerabilità completati.
