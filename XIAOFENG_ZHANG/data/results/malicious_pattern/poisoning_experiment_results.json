@@ -1,0 +1,68 @@
+[
+    {
+        "poisoning_rate": 0.0,
+        "accuracy_before": 0.8349735490897775,
+        "precision_before": 0.8619548293326188,
+        "recall_before": 0.8349735490897775,
+        "f1_score_before": 0.7741230227297241,
+        "accuracy_after": 0.8355923872300097,
+        "precision_after": 0.8622084273361084,
+        "recall_after": 0.8355923872300097,
+        "f1_score_after": 0.7750121456131912
+    },
+    {
+        "poisoning_rate": 0.2,
+        "accuracy_before": 0.840065702929403,
+        "precision_before": 0.8648745995319698,
+        "recall_before": 0.840065702929403,
+        "f1_score_before": 0.7812407481947751,
+        "accuracy_after": 0.8496435492312262,
+        "precision_after": 0.8719336951042369,
+        "recall_after": 0.8496435492312262,
+        "f1_score_after": 0.7935606964664539
+    },
+    {
+        "poisoning_rate": 0.4,
+        "accuracy_before": 0.8493801009943844,
+        "precision_before": 0.8724612961491159,
+        "recall_before": 0.8493801009943844,
+        "f1_score_before": 0.7941113452140992,
+        "accuracy_after": 0.8511269926588115,
+        "precision_after": 0.8729306941635199,
+        "recall_after": 0.8511269926588115,
+        "f1_score_after": 0.7953931471238372
+    },
+    {
+        "poisoning_rate": 0.6,
+        "accuracy_before": 0.0006895624991159455,
+        "precision_before": 0.9973571637230998,
+        "recall_before": 0.0006895624991159455,
+        "f1_score_before": 9.72586383669345e-07,
+        "accuracy_after": 0.0006895624991159455,
+        "precision_after": 0.9973571688028318,
+        "recall_after": 0.0006895624991159455,
+        "f1_score_after": 9.827314489237132e-07
+    },
+    {
+        "poisoning_rate": 0.8,
+        "accuracy_before": 0.0006895624991159455,
+        "precision_before": 0.9973571833553234,
+        "recall_before": 0.0006895624991159455,
+        "f1_score_before": 1.0117943548689637e-06,
+        "accuracy_after": 0.009123442295995586,
+        "precision_after": 0.9973571867518176,
+        "recall_after": 0.009123442295995586,
+        "f1_score_after": 0.016693460558416
+    },
+    {
+        "poisoning_rate": 1.0,
+        "accuracy_before": 0.0006895624991159455,
+        "precision_before": 0.9973571526083855,
+        "recall_before": 0.0006895624991159455,
+        "f1_score_before": 9.503879401742202e-07,
+        "accuracy_after": 0.0006895624991159455,
+        "precision_after": 0.9973571526420208,
+        "recall_after": 0.0006895624991159455,
+        "f1_score_after": 9.504551177432558e-07
+    }
+]
