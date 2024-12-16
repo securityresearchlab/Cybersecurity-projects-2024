@@ -1,0 +1,91 @@
+<!-- 
+ Pagina web che carica un'immagine casuale del dataset 
+ e verifica che l'input dell'utente corrisponda al contenuto dell'immagine
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAPTCHA Verification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        img {
+            margin-bottom: 15px;
+            width: 300px;
+            height: auto;
+        }
+        input, button {
+            margin-top: 10px;
+            padding: 8px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>CAPTCHA Verification</h1>
+        <div id="captcha-container">
+            <!-- conterrà l'immagine -->
+        </div>
+        <input type="text" id="captcha_input" placeholder="Enter subject">
+        <button id="submit_button">Submit</button>
+        <p id="result-message"></p>
+    </div>
+
+    <script>
+        // array che contiene i percorsi delle immagini
+        fetch('files.json')
+            .then(response => response.json())
+            .then(files => {
+                const images = files;
+
+                // seleziona immagina casuale
+                const randomIndex = Math.floor(Math.random() * images.length);
+                const selectedImage = images[randomIndex];
+
+                // estrae il nome del file dal percorso
+                const imagePathParts = selectedImage.split('/');
+                const fileNameWithExtension = imagePathParts[imagePathParts.length - 1]; 
+                const fileNameWithoutExtension = fileNameWithExtension.replace('.png', ''); 
+
+                // visualizza immagine
+                const imgElement = document.createElement('img');
+                imgElement.src = selectedImage; // Update the path accordingly
+                imgElement.alt = "CAPTCHA Image";
+                document.getElementById('captcha-container').appendChild(imgElement);
+
+                // funzione che verifica l'input dell'utente
+                function checkCaptcha() {
+                    const userInput = document.getElementById('captcha_input').value.trim().toLowerCase();
+                    const resultMessage = document.getElementById('result-message');
+
+                    if (userInput === fileNameWithoutExtension.toLowerCase()) {
+                        resultMessage.textContent = "Correct!";
+                        resultMessage.style.color = "green";
+                    } else {
+                        resultMessage.textContent = `Incorrect! The correct name was: ${fileNameWithoutExtension}`;
+                        resultMessage.style.color = "red";
+                    }
+                }
+
+                // event listener del bottone
+                document.getElementById('submit_button').addEventListener('click', checkCaptcha);
+            })
+            .catch(error => console.error('Error loading the file:', error));
+    </script>
+</body>
+</html>

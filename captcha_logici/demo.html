@@ -1,0 +1,129 @@
+<!-- 
+ Pagina web che carica un'immagine casuale del dataset 
+ e verifica che l'input dell'utente corrisponda al risultato 
+ dell'espressione contenuta nell'immagine
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAPTCHA Verification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        img {
+            margin-bottom: 15px;
+            width: 300px;
+            height: auto;
+        }
+        input, button {
+            margin-top: 10px;
+            padding: 8px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>CAPTCHA Verification</h1>
+        <div id="captcha-container">
+            <!-- conterrà l'immagine -->
+        </div>
+        <input type="text" id="captcha_input" placeholder="Enter result">
+        <button id="submit_button">Submit</button>
+        <p id="result-message"></p>
+    </div>
+
+    <script>
+        // funzione che calcola il risultato corretto dell'equazione
+        function evaluateEquation(equation) {
+            const parts = equation.split(/[+\-x/]/); // ottiene i numeri dell'equazione
+            const operator = equation.match(/[+\-x/]/); // ottiene l'operatore dell'equazione
+
+            console.log("Equation: ", equation);
+            console.log("parts: ", parts);
+            console.log("operator: ", operator);
+
+            if (parts.length === 2 && operator) {
+                const num1 = parseInt(parts[0], 10);
+                const num2 = parseInt(parts[1], 10);
+
+                switch (operator[0]) {
+                    case '+':
+                        return num1 + num2;
+                    case '-':
+                        return num1 - num2;
+                    case 'x':
+                        return num1 * num2;
+                    case '/':
+                        return num1 / num2;
+                    default:
+                        return null;
+                }
+            }
+            else{
+                return null; // se l'equazione non è valida
+            }
+        }
+
+        //  array che contiene i percorsi delle immagini
+        fetch('files.json')
+            .then(response => response.json())
+            .then(files => {
+                const images = files;
+
+                // seleziona immagina casuale
+                const randomIndex = Math.floor(Math.random() * images.length);
+                const selectedImage = images[randomIndex];
+
+                // estrae il nome del file dal percorso
+                const imagePathParts = selectedImage.split('/');
+                const filename = imagePathParts[imagePathParts.length - 1]; 
+
+                // estrae l'equazione dal nome del file
+                const equation = filename.slice(0, 3); 
+
+               // visualizza immagine
+                const imgElement = document.createElement('img');
+                imgElement.src = selectedImage; // Update the path accordingly
+                imgElement.alt = "CAPTCHA Image";
+                document.getElementById('captcha-container').appendChild(imgElement);
+
+                // calcola il risultato corretto
+                const correctAnswer = evaluateEquation(equation);
+
+                // funzione che verifica l'input dell'utente
+                function checkCaptcha() {
+                    const userInput = document.getElementById('captcha_input').value.trim();
+
+                    const resultMessage = document.getElementById('result-message');
+
+                    if (parseInt(userInput) === correctAnswer) {
+                        resultMessage.textContent = "Correct!";
+                        resultMessage.style.color = "green";
+                    } else {
+                        resultMessage.textContent = `Incorrect! The correct answer was: ${correctAnswer}`;
+                        resultMessage.style.color = "red";
+                    }
+                }
+
+                // event listener del bottone
+                document.getElementById('submit_button').addEventListener('click', checkCaptcha);
+            })
+            .catch(error => console.error('Error loading the file:', error));
+    </script>
+</body>
+</html>
