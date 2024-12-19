@@ -1,0 +1,247 @@
+[INFO] Analisi avviata per il progetto: ethereum-wallet-react-native
+[INFO] Directory del progetto: /home/andrea/Scrivania/SBOM/codice/dataset/ethereum-wallet-react-native
+[INFO] Directory di output: /home/andrea/Scrivania/SBOM/codice/risultati/ethereum-wallet-react-native/2024-12-16T20-40-24-185Z
+[*] Verifica e installazione delle dipendenze nella directory principale...
+[*] Sto installando le dipendenze dal file package.json...
+[!] Errore durante l'installazione delle dipendenze con npm in /home/andrea/Scrivania/SBOM/codice/dataset/ethereum-wallet-react-native: Command failed: npm install --legacy-peer-deps > npm-install.log 2>&1
+[!] Continuo con l'analisi delle dipendenze nonostante l'errore.
+[!] Dipendenza ignorata: @ant-design/react-native@3.1.5. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @tradle/react-native-http@2.0.1. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @types/node@11.9.5. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @types/jest@latest. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @types/react@16.8.4. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @types/react-native@0.57.38. Motivo: Nome o versione non specificati o non accettabili.
+[!] Dipendenza ignorata: @types/react-test-renderer@latest. Motivo: Nome o versione non specificati o non accettabili.
+[*] Verifica versioni più recenti per le dipendenze...
+[*] Verifica versioni più recenti per le dipendenze...
+[INFO] Versione più recente per assert: 2.1.0
+[INFO] Versione più recente per assert: 2.1.0
+[INFO] Versione più recente per browserify-zlib: 0.2.0
+[INFO] Versione più recente per browserify-zlib: 0.2.0
+[INFO] Versione più recente per buffer: 6.0.3
+[INFO] Versione più recente per buffer: 6.0.3
+[INFO] Versione più recente per console-browserify: 1.2.0
+[INFO] Versione più recente per console-browserify: 1.2.0
+[INFO] Versione più recente per constants-browserify: 1.0.0
+[INFO] Versione più recente per dns.js: 1.0.1
+[INFO] Versione più recente per domain-browser: 5.7.0
+[INFO] Versione più recente per domain-browser: 5.7.0
+[INFO] Versione più recente per ethereumjs-tx: 2.1.2
+[INFO] Versione più recente per ethereumjs-tx: 2.1.2
+[INFO] Versione più recente per ethereumjs-util: 7.1.5
+[INFO] Versione più recente per ethereumjs-util: 7.1.5
+[INFO] Versione più recente per events: 3.3.0
+[INFO] Versione più recente per events: 3.3.0
+[INFO] Versione più recente per https-browserify: 1.0.0
+[INFO] Versione più recente per https-browserify: 1.0.0
+[INFO] Versione più recente per node-libs-browser: 2.2.1
+[INFO] Versione più recente per node-libs-browser: 2.2.1
+[INFO] Versione più recente per path-browserify: 1.0.1
+[INFO] Versione più recente per path-browserify: 1.0.1
+[INFO] Versione più recente per process: 0.11.10
+[INFO] Versione più recente per punycode: 2.3.1
+[INFO] Versione più recente per punycode: 2.3.1
+[INFO] Versione più recente per querystring-es3: 0.2.1
+[INFO] Versione più recente per react: 19.0.0
+[INFO] Versione più recente per react: 19.0.0
+[INFO] Versione più recente per react-native: 0.76.5
+[INFO] Versione più recente per react-native: 0.76.5
+[INFO] Versione più recente per react-native-action-button: 2.8.5
+[INFO] Versione più recente per react-native-crypto: 2.2.0
+[INFO] Versione più recente per react-native-crypto: 2.2.0
+[INFO] Versione più recente per react-native-dialog: 9.3.0
+[INFO] Versione più recente per react-native-dialog: 9.3.0
+[INFO] Versione più recente per react-native-gesture-handler: 2.21.2
+[INFO] Versione più recente per react-native-gesture-handler: 2.21.2
+[INFO] Versione più recente per react-native-level-fs: 3.0.1
+[INFO] Versione più recente per react-native-os: 1.2.6
+[INFO] Versione più recente per react-native-os: 1.2.6
+[INFO] Versione più recente per react-native-qrcode-svg: 6.3.12
+[INFO] Versione più recente per react-native-qrcode-svg: 6.3.12
+[INFO] Versione più recente per react-native-randombytes: 3.6.1
+[INFO] Versione più recente per react-native-randombytes: 3.6.1
+[INFO] Versione più recente per react-native-svg: 15.10.1
+[INFO] Versione più recente per react-native-svg: 15.10.1
+[INFO] Versione più recente per react-native-tcp: 4.0.0
+[INFO] Versione più recente per react-native-tcp: 4.0.0
+[INFO] Versione più recente per react-native-udp: 4.1.7
+[INFO] Versione più recente per react-native-udp: 4.1.7
+[INFO] Versione più recente per react-native-vector-icons: 10.2.0
+[INFO] Versione più recente per react-native-vector-icons: 10.2.0
+[INFO] Versione più recente per react-navigation: 5.0.0
+[INFO] Versione più recente per react-navigation: 5.0.0
+[INFO] Versione più recente per readable-stream: 4.5.2
+[INFO] Versione più recente per readable-stream: 4.5.2
+[INFO] Versione più recente per stream-browserify: 3.0.0
+[INFO] Versione più recente per stream-browserify: 3.0.0
+[INFO] Versione più recente per string_decoder: 1.3.0
+[INFO] Versione più recente per string_decoder: 1.3.0
+[INFO] Versione più recente per timers-browserify: 2.0.12
+[INFO] Versione più recente per timers-browserify: 2.0.12
+[INFO] Versione più recente per tty-browserify: 0.0.1
+[INFO] Versione più recente per tty-browserify: 0.0.1
+[INFO] Versione più recente per url: 0.11.4
+[INFO] Versione più recente per url: 0.11.4
+[INFO] Versione più recente per util: 0.12.5
+[INFO] Versione più recente per util: 0.12.5
+[INFO] Versione più recente per vm-browserify: 1.1.2
+[INFO] Versione più recente per vm-browserify: 1.1.2
+[INFO] Versione più recente per web3: 4.16.0
+[INFO] Versione più recente per web3: 4.16.0
+[INFO] Versione più recente per babel-cli: 6.26.0
+[INFO] Versione più recente per babel-jest: 29.7.0
+[INFO] Versione più recente per babel-jest: 29.7.0
+[INFO] Versione più recente per babel-preset-es2015: 6.24.1
+[INFO] Versione più recente per babel-preset-react-native: 4.0.1
+[INFO] Versione più recente per jest: 29.7.0
+[INFO] Versione più recente per jest: 29.7.0
+[INFO] Versione più recente per react-test-renderer: 19.0.0
+[INFO] Versione più recente per react-test-renderer: 19.0.0
+[INFO] Versione più recente per rn-nodeify: 10.3.0
+[INFO] Versione più recente per rn-nodeify: 10.3.0
+[INFO] Fine verifica versioni più recenti.
+[*] Verifica delle vulnerabilità su OSV.dev e GitHub Advisory...
+[*] Verifica delle vulnerabilità su OSV.dev e GitHub Advisory...
+[DEBUG] OSV.dev per assert@1.4.1: [object Object]
+[DEBUG] Risposta GitHub per assert@1.4.1: [object Object]
+[DEBUG] GitHub Advisory per assert@1.4.1: 
+[DEBUG] OSV.dev per browserify-zlib@0.1.4: [object Object]
+[DEBUG] Risposta GitHub per browserify-zlib@0.1.4: [object Object]
+[DEBUG] GitHub Advisory per browserify-zlib@0.1.4: 
+[DEBUG] OSV.dev per buffer@4.9.1: [object Object]
+[DEBUG] Risposta GitHub per buffer@4.9.1: [object Object]
+[DEBUG] GitHub Advisory per buffer@4.9.1: 
+[DEBUG] OSV.dev per console-browserify@1.1.0: [object Object]
+[DEBUG] Risposta GitHub per console-browserify@1.1.0: [object Object]
+[DEBUG] GitHub Advisory per console-browserify@1.1.0: 
+[DEBUG] OSV.dev per constants-browserify@1.0.0: [object Object]
+[DEBUG] Risposta GitHub per constants-browserify@1.0.0: [object Object]
+[DEBUG] GitHub Advisory per constants-browserify@1.0.0: 
+[DEBUG] OSV.dev per dns.js@1.0.1: [object Object]
+[DEBUG] Risposta GitHub per dns.js@1.0.1: [object Object]
+[DEBUG] GitHub Advisory per dns.js@1.0.1: 
+[DEBUG] OSV.dev per domain-browser@1.2.0: [object Object]
+[DEBUG] Risposta GitHub per domain-browser@1.2.0: [object Object]
+[DEBUG] GitHub Advisory per domain-browser@1.2.0: 
+[DEBUG] OSV.dev per ethereumjs-tx@1.3.7: [object Object]
+[DEBUG] Risposta GitHub per ethereumjs-tx@1.3.7: [object Object]
+[DEBUG] GitHub Advisory per ethereumjs-tx@1.3.7: 
+[DEBUG] OSV.dev per ethereumjs-util@6.1.0: [object Object]
+[DEBUG] Risposta GitHub per ethereumjs-util@6.1.0: [object Object]
+[DEBUG] GitHub Advisory per ethereumjs-util@6.1.0: 
+[DEBUG] OSV.dev per events@1.1.1: [object Object]
+[DEBUG] Risposta GitHub per events@1.1.1: [object Object]
+[DEBUG] GitHub Advisory per events@1.1.1: 
+[DEBUG] OSV.dev per https-browserify@0.0.1: [object Object]
+[DEBUG] Risposta GitHub per https-browserify@0.0.1: [object Object]
+[DEBUG] GitHub Advisory per https-browserify@0.0.1: 
+[DEBUG] OSV.dev per node-libs-browser@2.2.0: [object Object]
+[DEBUG] Risposta GitHub per node-libs-browser@2.2.0: [object Object]
+[DEBUG] GitHub Advisory per node-libs-browser@2.2.0: 
+[DEBUG] OSV.dev per path-browserify@0.0.0: [object Object]
+[DEBUG] Risposta GitHub per path-browserify@0.0.0: [object Object]
+[DEBUG] GitHub Advisory per path-browserify@0.0.0: 
+[DEBUG] OSV.dev per process@0.11.10: [object Object]
+[DEBUG] Risposta GitHub per process@0.11.10: [object Object]
+[DEBUG] GitHub Advisory per process@0.11.10: 
+[DEBUG] OSV.dev per punycode@1.4.1: [object Object]
+[DEBUG] Risposta GitHub per punycode@1.4.1: [object Object]
+[DEBUG] GitHub Advisory per punycode@1.4.1: 
+[DEBUG] OSV.dev per querystring-es3@0.2.1: [object Object]
+[DEBUG] Risposta GitHub per querystring-es3@0.2.1: [object Object]
+[DEBUG] GitHub Advisory per querystring-es3@0.2.1: 
+[DEBUG] OSV.dev per react@16.3.1: [object Object]
+[DEBUG] Risposta GitHub per react@16.3.1: [object Object]
+[DEBUG] GitHub Advisory per react@16.3.1: [object Object],[object Object],[object Object]
+[DEBUG] OSV.dev per react-native@0.55.2: [object Object]
+[DEBUG] Risposta GitHub per react-native@0.55.2: [object Object]
+[DEBUG] GitHub Advisory per react-native@0.55.2: [object Object],[object Object]
+[DEBUG] OSV.dev per react-native-action-button@2.8.5: [object Object]
+[DEBUG] Risposta GitHub per react-native-action-button@2.8.5: [object Object]
+[DEBUG] GitHub Advisory per react-native-action-button@2.8.5: 
+[DEBUG] OSV.dev per react-native-crypto@2.1.2: [object Object]
+[DEBUG] Risposta GitHub per react-native-crypto@2.1.2: [object Object]
+[DEBUG] GitHub Advisory per react-native-crypto@2.1.2: 
+[DEBUG] OSV.dev per react-native-dialog@5.6.0: [object Object]
+[DEBUG] Risposta GitHub per react-native-dialog@5.6.0: [object Object]
+[DEBUG] GitHub Advisory per react-native-dialog@5.6.0: 
+[DEBUG] OSV.dev per react-native-gesture-handler@1.0.16: [object Object]
+[DEBUG] Risposta GitHub per react-native-gesture-handler@1.0.16: [object Object]
+[DEBUG] GitHub Advisory per react-native-gesture-handler@1.0.16: 
+[DEBUG] OSV.dev per react-native-level-fs@3.0.1: [object Object]
+[DEBUG] Risposta GitHub per react-native-level-fs@3.0.1: [object Object]
+[DEBUG] GitHub Advisory per react-native-level-fs@3.0.1: 
+[DEBUG] OSV.dev per react-native-os@1.2.2: [object Object]
+[DEBUG] Risposta GitHub per react-native-os@1.2.2: [object Object]
+[DEBUG] GitHub Advisory per react-native-os@1.2.2: 
+[DEBUG] OSV.dev per react-native-qrcode-svg@5.1.2: [object Object]
+[DEBUG] Risposta GitHub per react-native-qrcode-svg@5.1.2: [object Object]
+[DEBUG] GitHub Advisory per react-native-qrcode-svg@5.1.2: 
+[DEBUG] OSV.dev per react-native-randombytes@3.5.2: [object Object]
+[DEBUG] Risposta GitHub per react-native-randombytes@3.5.2: [object Object]
+[DEBUG] GitHub Advisory per react-native-randombytes@3.5.2: 
+[DEBUG] OSV.dev per react-native-svg@9.3.7: [object Object]
+[DEBUG] Risposta GitHub per react-native-svg@9.3.7: [object Object]
+[DEBUG] GitHub Advisory per react-native-svg@9.3.7: 
+[DEBUG] OSV.dev per react-native-tcp@3.3.0: [object Object]
+[DEBUG] Risposta GitHub per react-native-tcp@3.3.0: [object Object]
+[DEBUG] GitHub Advisory per react-native-tcp@3.3.0: 
+[DEBUG] OSV.dev per react-native-udp@2.5.0: [object Object]
+[DEBUG] Risposta GitHub per react-native-udp@2.5.0: [object Object]
+[DEBUG] GitHub Advisory per react-native-udp@2.5.0: 
+[DEBUG] OSV.dev per react-native-vector-icons@6.4.2: [object Object]
+[DEBUG] Risposta GitHub per react-native-vector-icons@6.4.2: [object Object]
+[DEBUG] GitHub Advisory per react-native-vector-icons@6.4.2: 
+[DEBUG] OSV.dev per react-navigation@3.3.0: [object Object]
+[DEBUG] Risposta GitHub per react-navigation@3.3.0: [object Object]
+[DEBUG] GitHub Advisory per react-navigation@3.3.0: 
+[DEBUG] OSV.dev per readable-stream@1.0.33: [object Object]
+[DEBUG] Risposta GitHub per readable-stream@1.0.33: [object Object]
+[DEBUG] GitHub Advisory per readable-stream@1.0.33: 
+[DEBUG] OSV.dev per stream-browserify@1.0.0: [object Object]
+[DEBUG] Risposta GitHub per stream-browserify@1.0.0: [object Object]
+[DEBUG] GitHub Advisory per stream-browserify@1.0.0: 
+[DEBUG] OSV.dev per string_decoder@0.10.31: [object Object]
+[DEBUG] Risposta GitHub per string_decoder@0.10.31: [object Object]
+[DEBUG] GitHub Advisory per string_decoder@0.10.31: 
+[DEBUG] OSV.dev per timers-browserify@1.4.2: [object Object]
+[DEBUG] Risposta GitHub per timers-browserify@1.4.2: [object Object]
+[DEBUG] GitHub Advisory per timers-browserify@1.4.2: 
+[DEBUG] OSV.dev per tty-browserify@0.0.0: [object Object]
+[DEBUG] Risposta GitHub per tty-browserify@0.0.0: [object Object]
+[DEBUG] GitHub Advisory per tty-browserify@0.0.0: 
+[DEBUG] OSV.dev per url@0.10.3: [object Object]
+[DEBUG] Risposta GitHub per url@0.10.3: [object Object]
+[DEBUG] GitHub Advisory per url@0.10.3: 
+[DEBUG] OSV.dev per util@0.10.4: [object Object]
+[DEBUG] Risposta GitHub per util@0.10.4: [object Object]
+[DEBUG] GitHub Advisory per util@0.10.4: 
+[DEBUG] OSV.dev per vm-browserify@0.0.4: [object Object]
+[DEBUG] Risposta GitHub per vm-browserify@0.0.4: [object Object]
+[DEBUG] GitHub Advisory per vm-browserify@0.0.4: 
+[DEBUG] OSV.dev per web3@1.0.0-beta.33: [object Object]
+[DEBUG] Risposta GitHub per web3@1.0.0-beta.33: [object Object]
+[DEBUG] GitHub Advisory per web3@1.0.0-beta.33: [object Object]
+[DEBUG] OSV.dev per babel-cli@6.26.0: [object Object]
+[DEBUG] Risposta GitHub per babel-cli@6.26.0: [object Object]
+[DEBUG] GitHub Advisory per babel-cli@6.26.0: 
+[DEBUG] OSV.dev per babel-jest@24.1.0: [object Object]
+[DEBUG] Risposta GitHub per babel-jest@24.1.0: [object Object]
+[DEBUG] GitHub Advisory per babel-jest@24.1.0: 
+[DEBUG] OSV.dev per babel-preset-es2015@6.24.1: [object Object]
+[DEBUG] Risposta GitHub per babel-preset-es2015@6.24.1: [object Object]
+[DEBUG] GitHub Advisory per babel-preset-es2015@6.24.1: 
+[DEBUG] OSV.dev per babel-preset-react-native@4.0.1: [object Object]
+[DEBUG] Risposta GitHub per babel-preset-react-native@4.0.1: [object Object]
+[DEBUG] GitHub Advisory per babel-preset-react-native@4.0.1: 
+[DEBUG] OSV.dev per jest@24.1.0: [object Object]
+[DEBUG] Risposta GitHub per jest@24.1.0: [object Object]
+[DEBUG] GitHub Advisory per jest@24.1.0: 
+[DEBUG] OSV.dev per react-test-renderer@16.3.1: [object Object]
+[DEBUG] Risposta GitHub per react-test-renderer@16.3.1: [object Object]
+[DEBUG] GitHub Advisory per react-test-renderer@16.3.1: 
+[DEBUG] OSV.dev per rn-nodeify@10.0.1: [object Object]
+[DEBUG] Risposta GitHub per rn-nodeify@10.0.1: [object Object]
+[DEBUG] GitHub Advisory per rn-nodeify@10.0.1: 
+[INFO] Vulnerabilità trovate: 3
+[INFO] Dettagli vulnerabilità completati.
